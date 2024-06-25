@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Bora Viajar</title>
+</head>
+
+<body>
+    <div>
+        <header class="head">
+            <a style="animation-delay: 0.1s;" href="#">Home</a>
+            <a style="animation-delay: 0.2s;" href="#">Informações</a>
+            <a style="animation-delay: 0.2s;" href="#">Fale Conosco</a>
+        </header>
+    </div>
+
+    <main class="container">
+        <div class="list">
+            <div class="list-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img1.jpg" alt="Bali">
+                <div class="content">
+                    <h2 class="title">Bali</h2>
+                    <p class="description">Bali é uma ilha da Indonésia conhecida por suas montanhas vulcânicas repletas de florestas, seus arrozais, suas praias e seus recifes de coral. A ilha abriga locais religiosos, como o templo Uluwatu, localizado na beira de um penhasco.
+                        Ao sul, a cidade litorânea de Kuta tem bares animados, enquanto Seminyak, Sanur e Nusa Dua são cidades turísticas bastante procuradas. A ilha também é conhecida por seus retiros de ioga e meditação.</p>
+                    <div class="buttons">
+                        <button>Saiba Mais</button>
+                        <button>Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <img src="\C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img2.jpg" alt="Paris">
+                <div class="content">
+                    <h2 class="title">Paris</h2>
+                    <p class="description">Paris, a capital da França, é uma importante cidade europeia e um centro mundial de arte, moda, gastronomia e cultura. Sua paisagem urbana do século XIX é cortada por avenidas largas e pelo rio Sena. A cidade é conhecida por monumentos
+                        como a Torre Eiffel e a Catedral de Notre-Dame, uma construção gótica do século XII, sendo famosa também pela cultura dos cafés e por lojas de estilistas famosos na Rue du Faubourg Saint-Honoré.</p>
+                    <div class="buttons">
+                        <button>Saiba Mais</button>
+                        <button>Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img3.jpg" alt="Roma">
+                <div class="content">
+                    <h2 class="title">Roma</h2>
+                    <p class="description">Roma, a capital da Itália, é uma cidade cosmopolita, enorme, com quase 3.000 anos de arte, arquitetura e cultura influentes no mundo todo e à mostra. Ruínas antigas como o Fórum e o Coliseu evocam o poder do antigo Império Romano.
+                        A Cidade do Vaticano, sede da Igreja Católica Romana, tem a Basílica de São Pedro e os museus do Vaticano, que abrigam obras-primas como os afrescos da Capela Sistina de Michelângelo.</p>
+                    <div class="buttons">
+                        <button>Saiba Mais</button>
+                        <button>Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img4.jpg" alt="Veneza">
+                <div class="content">
+                    <h2 class="title">Veneza</h2>
+                    <p class="description">Veneza, a capital da região de Vêneto, no norte da Itália, é formada por mais de 100 pequenas ilhas em uma lagoa no Mar Adriático. A cidade não tem estradas, apenas canais (como a via Grand Canal), repletos de palácios góticos e renascentistas.
+                        Na praça central, Piazza San Marco, ficam a Basílica de São Marcos, coberta de mosaicos bizantinos, e o campanário, com vista para os telhados vermelhos da cidade.</p>
+                    <div class="buttons">
+                        <button>Saiba Mais</button>
+                        <button>Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img5.jpg" alt="Londres">
+                <div class="content">
+                    <h2 class="title">Londres</h2>
+                    <p class="description">Londres, capital da Inglaterra e do Reino Unido, é uma cidade do século 21 com uma história que remonta à era romana. Seu centro abriga as sedes imponentes do Parlamento, a famosa torre do relógio do Big Ben e a Abadia de Westminster,
+                        local de coroação dos monarcas britânicos. Do outro lado do rio Tâmisa, a roda gigante London Eye tem vista panorâmica do complexo cultural da margem sul e de toda a cidade.</p>
+                    <div class="buttons">
+                        <button>Saiba Mais</button>
+                        <button>Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img6.jpg" alt="Andorra">
+                <div class="content">
+                    <h2 class="title">Andorra</h2>
+                    <p class="description">Andorra é um pequeno principado independente situado entre a França e a Espanha nas montanhas dos Pireneus. O país é conhecido por suas estações de esqui e pelo status de paraíso fiscal que incentiva compras isentas de impostos. A
+                        capital Andorra la Vella tem butiques e joalherias na Avenida Meritxell, além de vários centros comerciais. O bairro antigo, Barri Antic, abriga a Igreja de Santa Coloma, de estilo românico e campanário circular.</p>
+                    <div class="buttons">
+                        <button>Saiba Mais</button>
+                        <button>Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img7.jpg" alt="Suiça">
+                <div class="content">
+                    <h2 class="title">Suiça</h2>
+                    <p class="description">A Suíça é um país montanhoso da Europa Central com um grande número de lagos, vilas e picos elevados dos Alpes. Suas cidades têm bairros medievais e monumentos como a torre do relógio Zytglogge, na capital Berna, e a ponte de madeira
+                        de Lucerna. O país também é conhecido por suas estações de esqui e trilhas. Os setores bancário e financeiro são muito importantes para a economia do país, e os chocolates e relógios suíços têm fama no mundo todo.</p>
+                    <div class="buttons">
+                        <button>Saiba Mais</button>
+                        <button>Acessar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumb">
+            <div class="thumb-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img1.jpg" alt="Bali">
+                <div class="content">
+                    <h3>Bali</h3>
+                    <p>Visite Bali</p>
+                </div>
+            </div>
+
+            <div class="thumb-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img2.jpg" alt="Paris">
+                <div class="content">
+                    <h3>Paris</h3>
+                    <p>Visite Paris</p>
+                </div>
+            </div>
+
+            <div class="thumb-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img3.jpg" alt="Roma">
+                <div class="content">
+                    <h3>Roma</h3>
+                    <p>Visite Roma</p>
+                </div>
+            </div>
+
+            <div class="thumb-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img4.jpg" alt="Veneza">
+                <div class="content">
+                    <h3>Veneza</h3>
+                    <p>Visite Veneza</p>
+                </div>
+            </div>
+
+            <div class="thumb-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img5.jpg" alt="Londres">
+                <div class="content">
+                    <h3>Londres</h3>
+                    <p>Visite Londres</p>
+                </div>
+            </div>
+
+            <div class="thumb-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img6.jpg" alt="Andorra">
+                <div class="content">
+                    <h3>Andorra</h3>
+                    <p>Visite Andorra</p>
+                </div>
+            </div>
+
+            <div class="thumb-item">
+                <img src="C:\Users\victm\Desktop\Dev Club\Bora Viajar\img\img7.jpg" alt="Suiça">
+                <div class="content">
+                    <h3>Suiça</h3>
+                    <p>Visite Suiça</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="arrows">
+            <button class="back">
+                < </button>
+            <button class="next"> > </button>
+        </div>
+    </main>
+
+    <script src="./scripts.js"></script>
+
+</body>
+
+</html>
