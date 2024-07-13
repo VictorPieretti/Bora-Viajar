@@ -1,309 +1,303 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: #000000;
-    color: #eee;
-    font-size: 18px;
+  background-color: #000000;
+  color: #eee;
+  font-size: 18px;
 }
 
 .head {
-    width: 80%;
-    height: 38px;
-    /*desceu o header para baixo*/
-    display: flex;
-    /*jogar o header mais para baixo*/
-    align-items: center;
-    position: relative;
-    z-index: 2;
-    margin: auto;
-    transition: 0.4s;
+  width: 80%;
+  height: 38px;
+  /*desceu o header para baixo*/
+  display: flex;
+  /*jogar o header mais para baixo*/
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  transition: 0.4s;
 }
 
 header {
-    & a {
-        color: #eee;
-        margin-right: 40px;
-        font-weight: 400;
-    }
+  & a {
+    color: #eee;
+    margin-right: 40px;
+    font-weight: 400;
+  }
 }
 
 .head a {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 .head:hover a {
-    opacity: 0.25;
+  opacity: 0.25;
 }
 
 .head a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 @keyframes appear {
-    0% {
-        opacity: 0;
-        translate: 0 50px;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+    translate: 0 50px;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .container {
-    width: 100%;
-    height: 100%;
-    margin-top: -50px;
-    /* puxou o container para cima*/
-    overflow: hidden;
-    /* nao deixa a tela descer se tiver mais itens no html */
+  width: 100%;
+  height: 100%;
+  margin-top: -50px;
+  /* puxou o container para cima*/
+  overflow: hidden;
+  /* nao deixa a tela descer se tiver mais itens no html */
 }
 
 .container .list .list-item {
-    width: 100%;
-    height: 100%;
-    position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .container .list .list-item img {
-    object-fit: cover;
-    /* faz o objeto se encaixar na tela toda*/
-    width: 100%;
-    height: 100%;
-    filter: brightness(70%);
+  object-fit: cover;
+  /* faz o objeto se encaixar na tela toda*/
+  width: 100%;
+  height: 100%;
+  filter: brightness(70%);
 }
 
 .container .list .list-item .content {
-    position: absolute;
-    top: 20%;
-    right: 10%;
-    padding-right: 30%;
-    width: 80%;
-    color: #eee;
-    text-shadow: 0 5px 10px #0004;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  padding-right: 30%;
+  width: 80%;
+  color: #eee;
+  text-shadow: 0 5px 10px #0004;
 }
 
 .container .list .list-item .title {
-    font-size: 4em;
-    font-weight: 700;
-    line-height: 1.3em;
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1.3em;
 }
 
 .container .list .list-item .description {
-    font-family: "Poppins", sans-serif;
-    font-size: 1.3em;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3em;
 }
 
 .container .list .list-item .buttons {
-    display: grid;
-    grid-template-columns: repeat(2, 130px);
-    grid-template-rows: 40px;
-    margin-top: 20px;
-    gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 130px);
+  grid-template-rows: 40px;
+  margin-top: 20px;
+  gap: 5px;
 }
 
 .container .list .list-item .buttons button {
-    border: none;
-    background-color: #eee;
-    letter-spacing: 3px;
-    font-weight: 500;
-    cursor: pointer;
-    text-transform: uppercase;
+  border: none;
+  background-color: #eee;
+  letter-spacing: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
 .container .list .list-item .buttons button:hover {
-    background-color: transparent;
-    border: 1px solid #eee;
-    color: #eee;
-    transition: 0.7s;
+  background-color: transparent;
+  border: 1px solid #eee;
+  color: #eee;
+  transition: 0.7s;
 }
 
 .container .list .list-item .buttons button:nth-child(2) {
-    background-color: transparent;
-    border: 1px solid #eee;
-    color: #eee;
+  background-color: transparent;
+  border: 1px solid #eee;
+  color: #eee;
 }
 
 .container .list .list-item .buttons button:nth-child(2):hover {
-    background-color: #eee;
-    color: #000;
+  background-color: #eee;
+  color: #000;
 }
 
 .container .thumb {
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    display: flex;
-    gap: 10px
+  position: absolute;
+  bottom: 50px;
+  left: 25%;
+  display: flex;
+  gap: 10px;
 }
 
 .container .thumb .thumb-item {
-    width: 135px;
-    height: 200px;
-    position: relative;
-    z-index: 3;
+  width: 135px;
+  height: 200px;
+  position: relative;
+  z-index: 3;
 }
 
 .container .thumb .thumb-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    filter: brightness(80%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: brightness(80%);
 }
 
 .container .thumb .content {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 
 .container .arrows {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    bottom: 120px;
-    left: 125px;
-    width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 120px;
+  left: 125px;
+  width: 300px;
 }
 
 .container .arrows button {
-    border-radius: 10px;
-    border: none;
-    padding: 12px 17px;
-    background-color: #eee4;
-    color: #eee;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 1.5em;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 17px;
+  background-color: #eee4;
+  color: #eee;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
 .container .arrows button:hover {
-    background-color: #eee;
-    color: #000;
-    transform: 0.7s;
+  background-color: #eee;
+  color: #000;
+  transform: 0.7s;
 }
-
 
 /* MOVIMENTO DA THUMB */
 
 .container.next .thumb {
-    animation: effectNextThumb 0.5s linear 1 forwards;
-    /* animation: chamar animação (tempo da animação) (velocidade) (repetição) (direção) */
+  animation: effectNextThumb 0.5s linear 1 forwards;
+  /* animation: chamar animação (tempo da animação) (velocidade) (repetição) (direção) */
 }
 
 @keyframes effectNextThumb {
-    from {
-        transform: translateX(150px);
-    }
+  from {
+    transform: translateX(150px);
+  }
 }
-
 
 /* MOVIMENTO DA THUMB */
 
 .container.back .thumb {
-    animation: effectBackThumb 0.5s linear 1 backwards;
-    /* animation: chamar animação (tempo da animação) (velocidade) (repetição) (direção) */
+  animation: effectBackThumb 0.5s linear 1 backwards;
+  /* animation: chamar animação (tempo da animação) (velocidade) (repetição) (direção) */
 }
 
 @keyframes effectBackThumb {
-    from {
-        transform: translateX(150px);
-    }
+  from {
+    transform: translateX(150px);
+  }
 }
-
 
 /*Movimento ultima thumb */
 
 .container.next .thumb .thumb-item:nth-last-child(1) {
-    animation: effectLastThumb 0.5s linear 1 forwards;
+  animation: effectLastThumb 0.5s linear 1 forwards;
 }
 
 @keyframes effectLastThumb {
-    from {
-        width: 0;
-        opacity: 0;
-    }
+  from {
+    width: 0;
+    opacity: 0;
+  }
 }
-
 
 /*Textos principais */
 
 .container .list .list-item:nth-last-child(1) .content .title,
 .container .list .list-item:nth-last-child(1) .content .description,
 .container .list .list-item:nth-last-child(1) .content .buttons {
-    transform: translateY(50px);
-    filter: blur(20px);
-    opacity: 0;
-    animation: showContent 0.5s 1s linear 1 forwards;
+  transform: translateY(50px);
+  filter: blur(20px);
+  opacity: 0;
+  animation: showContent 0.5s 1s linear 1 forwards;
 }
 
 @keyframes showContent {
-    to {
-        transform: translateY(0);
-        filter: blur(0);
-        opacity: 1;
-    }
+  to {
+    transform: translateY(0);
+    filter: blur(0);
+    opacity: 1;
+  }
 }
 
 .container .list .list-item:nth-last-child(1) .content .title {
-    animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .container .list .list-item:nth-last-child(1) .content .description {
-    animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 .container .list .list-item:nth-last-child(1) .content .buttons {
-    animation-delay: 1.8s;
+  animation-delay: 1.8s;
 }
-
 
 /*Efeito Imagem principal crescendo*/
 
 .container.next .list .list-item:nth-last-child(1) img {
-    width: 150px;
-    height: 220px;
-    position: absolute;
-    bottom: 50px;
-    left: 42%;
-    border-radius: 30px;
-    animation: showExpansive 0.5s linear 1 forwards;
+  width: 150px;
+  height: 220px;
+  position: absolute;
+  bottom: 50px;
+  left: 42%;
+  border-radius: 30px;
+  animation: showExpansive 0.5s linear 1 forwards;
 }
 
 @keyframes showExpansive {
-    to {
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: 0;
-    }
+  to {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
 }
-
 
 /*Efeito Imagem principal Back*/
 
 .container.back .list .list-item:nth-child(1) img {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    animation: hideMainImagem 0.5s linear 1 forwards;
-    z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: hideMainImagem 0.5s linear 1 forwards;
+  z-index: 2;
 }
 
 @keyframes hideMainImagem {
-    to {
-        width: 135px;
-        height: 200px;
-        border-radius: 10px;
-        left: 42%;
-        bottom: 50px;
-    }
+  to {
+    width: 135px;
+    height: 200px;
+    border-radius: 10px;
+    left: 42%;
+    bottom: 50px;
+  }
 }
